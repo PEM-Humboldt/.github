@@ -44,7 +44,7 @@ Depending on the type of your project, it can require additional configuration t
 
 ## [Optional] Contributing
 
-It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), which details the code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
