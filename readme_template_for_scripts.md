@@ -4,11 +4,7 @@ One Paragraph of project description goes here. We suggest English as your prefe
 
 Also must include the current state of your script(s).
 
-## Getting Started
-
-These instructions will get you a copy of this GitHub project on your local machine. Please explain the order to run each script.
-
-### Prerequisites
+## Prerequisites
 
 What things you need to run the script, libraries required and their versions
 
@@ -16,13 +12,13 @@ What things you need to run the script, libraries required and their versions
 Give examples
 ```
 
-### Required files
+## Required files
 
 URLs to download required files or templates to download before to run each script.
 
-### How to run
+## How to run
 
-A step by step series of examples that tell you how to get your scripts running, which one to run first and how to call the others
+Please explain the order to run each script using bullets and identation, showing step by step series of examples that tell you how to get your scripts running, which one to run first and how to call the others
 
 Say what the step will be
 
