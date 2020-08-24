@@ -16,6 +16,10 @@ What things you need to run the script, libraries required and their versions
 Give examples
 ```
 
+### Required files
+
+URLs to download required files or templates to download before to run each script.
+
 ### How to run
 
 A step by step series of examples that tell you how to get your scripts running, which one to run first and how to call the others
