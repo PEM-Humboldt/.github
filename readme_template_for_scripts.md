@@ -16,7 +16,7 @@ What things you need to run the script, libraries required and their versions
 Give examples
 ```
 
-### Running
+### How to run
 
 A step by step series of examples that tell you how to get your scripts running, which one to run first and how to call the others
 
@@ -38,7 +38,7 @@ until finished
 
 It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), which details the code of conduct, and the process for submitting pull requests to us.
 
-## Authors
+## Authors and contact
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
