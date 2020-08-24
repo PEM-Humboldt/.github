@@ -12,9 +12,13 @@ What things you need to run the script, libraries required and their versions
 Give examples
 ```
 
-## Required files
+### [Optional] Required files
 
 URLs to download required files or templates to download before to run each script.
+
+```
+Give the example, as dataset names and where to download them
+```
 
 ## How to run
 
@@ -34,10 +38,6 @@ until finished
 
 **End with an example of getting some data out of the system or using it for a little demo**
 
-## [Optional] Contributing
-
-It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), which details the code of conduct, and the process for submitting pull requests to us.
-
 ## Authors and contact
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
@@ -53,3 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## [Optional] Contributing
+
+It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), which details the code of conduct, and the process for submitting pull requests to us.
