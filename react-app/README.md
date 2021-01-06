@@ -6,7 +6,7 @@ v0.1.0
 
 ## Getting Started
 
-Download this folder _react-app_ or extract it from the clone of the whole repo to use it as starting point in a new react application.
+Download this folder (_react-app_) or extract it from the clone of the whole repo to use it as starting point in a new react application.
 
 ### Prerequisites
 

@@ -1,6 +1,17 @@
 # dev-scrum
 
-If you are looking for documentation and guides this is what we have:
+This repository stores templates, guidelines and other tools to ease collaborative work in projects that involve code.
 
-* [A template for the readme - For scripts](readme_template_for_scripts.md)
-* [A template for the readme - For software projects](readme_template.md)
+New materials are being progressively introduced. Meanwhile, have fun:
+![](https://imgs.xkcd.com/comics/code_quality.png)
+
+<sub>https://xkcd.com/1513/</sub>
+
+## README templates
+
+- [Template for scripts](readme_template_for_scripts.md)
+- [Template for software projects](readme_template.md)
+
+## App templates
+
+- [new React app](react-app/)
