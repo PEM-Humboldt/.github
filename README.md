@@ -3,9 +3,10 @@
 This repository stores templates, guidelines and other tools to ease collaborative work in projects that involve code.
 
 New materials are being progressively introduced. Meanwhile, have fun:
-![](https://imgs.xkcd.com/comics/code_quality.png)
 
-<sub>https://xkcd.com/1513/</sub>
+![](https://imgs.xkcd.com/comics/git.png)
+
+<sub>https://imgs.xkcd.com/comics/git.png</sub>
 
 ## README templates
 
