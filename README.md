@@ -13,6 +13,3 @@ New materials are being progressively introduced. Meanwhile, have fun:
 - [Template for scripts](readme_template_for_scripts.md)
 - [Template for software projects](readme_template.md)
 
-## App templates
-
-- [new React app](react-app/)
