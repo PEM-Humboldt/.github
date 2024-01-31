@@ -1,4 +1,4 @@
-> Remove all lines starting wth `>` before creatign the PR
+> Remove all lines starting with > before creatign the PR
 ## 🛠️ Changes
 > List or describe changes in this PR (this could easly be a summary of the commits messages)
 
