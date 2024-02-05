@@ -2,7 +2,7 @@
 
 Bienvenido a la organización de la Dirección de Conocimiento del Iinstituto Humboldt
 
-Estamos en construcción, por el momento aquí encontrará contenidos de la Gerencia de Información Científica y el Estudios Socioecológicos y Cambio Global.
+Estamos en construcción, por el momento aquí encontrará contenidos de la Gerencia de Información Científica y el Centro de Estudios Socioecológicos y Cambio Global.
 
 ## 🌈 Contribution guidelines
 
