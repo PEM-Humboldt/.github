@@ -30,12 +30,16 @@ En windows existe una forma sencilla de interactuar con los diferentes comandos 
 ### Usuarios Mac OS y Linux
 En estos dos sistemas operativos la terminal será la herramienta apropiada para usar Git
 
-## README templates
+### Libro para aprender GIT
+Toda la documentación para el uso de Git se encuentra en este libro (el cual cuenta con ejemplos), así que si desea profundizar en algunos temas, este es un buen punto de partida.
+
+[libro en español](https://git-scm.com/book/es/v2)
+## Documentacion y plantillas del README
 
 - [Configuración inicial](configuracion_inicial.md) -> inicia Git con tus credenciales: correo y usuario
 
-- [Plantilla para llaves ssh](acerca_de_llaves_SSH(ssh_keys).md) -> esta clave es necesaria para una mejor seguridad al momento de envia codigo al remoto
+- [Configurando llaves ssh](acerca_de_llaves_SSH(ssh_keys).md) -> esta clave es necesaria para una mejor seguridad al momento de envia codigo al remoto
 
-- [Plantilla para scripts](readme_template_for_scripts.md) -> si vas a incluir un script
+- [Plantilla del README para scripts](readme_template_for_scripts.md) -> si vas a incluir un script
 
-- [Plantilla para proyectos de software](readme_template.md) -> Al momento de iniciar un proyecto completo
+- [Plantilla del README para aplicaciones de software](readme_template.md) -> Al momento de iniciar un proyecto completo

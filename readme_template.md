@@ -51,7 +51,7 @@ Mira tambien la lista de [contribuitors](https://github.com/PurpleBooth/whatismy
 ## Licencia
 
 Este proyecto está bajo la licencia MIT, 
-mira la [LICENCIA](https://mit-license.org/) 
+mira la [LICENCIA](licencia.md) 
 para obtener más detalles.
 
 ## Agradecimientos
