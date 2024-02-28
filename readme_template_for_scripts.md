@@ -1,59 +1,62 @@
-# Project Title
+# Titulo del Proyecto
 
-One Paragraph of project description goes here. We suggest English as your preferred language.
+Un párrafo con la descripción del proyecto va aquí.
 
-Also must include the current state of your script(s).
+También debe incluir el estado actual de su script.
 
-## Prerequisites
+## Prerequisitos
 
-What things you need to run the script, libraries required and their versions
-
-```
-Give examples
-```
-
-### [Optional] Required files
-
-URLs to download required files or templates to download before to run each script.
+¿Qué cosas necesita para ejecutar el script?, por ejemplo, bibliotecas necesarias, paquetes, archivos y sus versiones.
 
 ```
-Give the example, as dataset names and where to download them
+Dar ejemplos
 ```
 
-## How to run
+### [Opcional] Archivos Necesarios
 
-Please explain the order to run each script using bullets and identation, showing step by step series of examples that tell you how to get your scripts running, which one to run first and how to call the others
-
-Say what the step will be
+URL para descargar los archivos y/o plantillas necesarias para descargar, antes de ejecutar cada script.
 
 ```
-Give the example
+Da ejemplos, como nombres de conjuntos de datos y dónde descargarlos.
 ```
 
-And repeat
+## Como ejecutar
 
+Explique el orden para ejecutar cada script usando viñetas e identación, mostrando una serie de ejemplos paso a paso que indiquen cómo ejecutar sus scripts, asi como cuál script ejecutar primero y cómo llamar a los demás.
+
+Di cuál será el paso.
 ```
-until finished
+Da el ejemplo
 ```
 
-**End with an example of getting some data out of the system or using it for a little demo**
+Y repetir
+```
+hasta terminar
+```
 
-## Authors and contact
+**Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.**
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+## Autores(as) y contacto
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Billie Thompson** - *Trabajo Inicial* - [PurpleBooth](https://github.com/PurpleBooth)
 
-## License
+Mira tambien la lista de [contribuitors](https://github.com/PurpleBooth/whatismyip/graphs/contributors) quienes participan en este proyecto.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (this file doesn't exist in this repo, but if it exists in yours, please link it in this section)
+## Licencia
 
-## [Optional] Acknowledgments
+Este proyecto está bajo la licencia MIT, 
+mira la [LICENCIA](licencia.md) 
+para obtener más detalles.
 
-* Hat tip to anyone whose code was used
-* Inspiration
+
+## [Opcional] Agradecimientos
+
+* Un consejo para cualquiera cuyo código se haya utilizado
+* Inspiración
 * etc
 
-## [Optional] Contributing
+## [Opcional] Contribuciones
 
-It usually has its own file: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), which details the code of conduct, and the process for submitting pull requests to us.
+Suele tener su propio archivo: [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426), que detalla el código de conducta y el proceso para enviarnos solicitudes de extracción (Pull Request).
+
+[Regresar al inicio](README.md)
