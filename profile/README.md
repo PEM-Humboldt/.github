@@ -1,14 +1,14 @@
-## Hi there 👋
+## Hola! 👋
 
 Bienvenido a la organización de la Dirección de Conocimiento del Iinstituto Humboldt
 
 Estamos en construcción, por el momento aquí encontrará contenidos de la Gerencia de Información Científica y el Centro de Estudios Socioecológicos y Cambio Global.
 
-## 🌈 Contribution guidelines
+## 🌈 Cómo contribuir
 
-Para contribuciones recomendamos contactar directamente a los colaboradores de cada repositorio
+Para contribuciones recomendamos contactar directamente a los colaboradores de cada repositorio.
 
-## 👩‍💻 Useful resources
+## 👩‍💻 Recursos útiles
 
 https://www.humboldt.org.co/
 

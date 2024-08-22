@@ -1,6 +1,6 @@
 # SSH keys
 
-Una clave SSH es una credencial de acceso para el protocolo de red SSH (Secure Shell). Este protocolo de red segura con autenticación y cifrado se utiliza para la comunicación remota entre máquinas 
+Una clave SSH es una credencial de acceso para el protocolo de red SSH (Secure Shell). Este protocolo de red segura con autenticación y cifrado se utiliza para la comunicación remota entre máquinas
 
 Es importante haber configurado las opciones del mail y el usuario con git config:
 - [Configuracion inicial](configuracion_inicial.md)
@@ -13,4 +13,4 @@ Es importante haber configurado las opciones del mail y el usuario con git confi
 ## En linux
 [si trabajas con linux](https://www.youtube.com/watch?v=jTCdRkCaf2k)
 
-[Regresar al inicio](README.md)
+[Regresar a la guia](README.md)
