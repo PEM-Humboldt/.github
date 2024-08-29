@@ -4,7 +4,7 @@ En este repositorio se alojan recursos de varios tipos, orientados a ayudar el t
 
 - [Recursos de git](./git/README.md)
 - [Plantillas](./plantillas/README.md)
-- []
+- [Buenas Practicas con R](https://docs.google.com/document/d/1wCaukS3_AS0iYTPC-w6nmSDfW-NVFQHy/edit?usp=drive_link&ouid=107189866705992298129&rtpof=true&sd=true)
 
 Progresivamente se irán introduciendo nuevos materiales. Mientras tanto, diviértete:
 
