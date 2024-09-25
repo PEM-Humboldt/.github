@@ -21,6 +21,17 @@ library(terra)
 Configura el directorio de trabajo y las rutas a las carpetas relevantes. Puedes usar la función setwd() o la función here() del paquete here para manejar rutas relativas.
 
 #### Opciones:
-setwd(): Define el directorio de trabajo de forma absoluta.
-here(): Define rutas relativas basadas en el proyecto.
-Ejemplos de rutas a directorios importantes:
+- setwd(): Define el directorio de trabajo de forma absoluta.
+- here(): Define rutas relativas basadas en el proyecto.
+  
+#### Ejemplos de rutas a directorios importantes:
+```r
+# Definir rutas usando here()
+dir_datos <- here::here("Datos")
+dir_resultados <- here::here("Resultados")
+
+# Definir rutas usando rutas absolutas
+setwd("Ruta/Al/Proyecto")
+dir_datos <- "Ruta/Al/Proyecto/Datos"
+dir_resultados <- "Ruta/Al/Proyecto/Resultados"
+```
