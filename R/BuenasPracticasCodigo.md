@@ -52,6 +52,7 @@ En RStudio puedes crear una sección con `Ctrl + Shift + R`, o agregar 4 guiones
 Es fundamental comprender la importancia de crear y utilizar funciones correctamente en el código. Repetir código copiando y pegando es una mala práctica. En lugar de escribir código repetitivo, crea funciones.
 
 Las funciones vectorizadas (como `apply`, `lapply`, `sapply`, etc.) son más eficientes que los bucles convencionales.
+
 ***NOTA:*** *Al definir las funciones no permitir el uso de parametros globales. Defina todos los parameros que va a necesitar la función, para hacer la función más flexible y menos compleja para los usuarios.*
 
 **Ejemplos:**
