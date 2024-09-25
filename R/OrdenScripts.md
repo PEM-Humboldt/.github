@@ -37,4 +37,74 @@ dir_datos <- "Ruta/Al/Proyecto/Datos"
 dir_resultados <- "Ruta/Al/Proyecto/Resultados"
 ```
 
+## 4. Cargar Archivos de Datos y Funciones Necesarias
+Carga todos los archivos de datos y las funciones que vas a utilizar en el análisis.
+
+```r
+# Cargar datos
+datos <- read.csv(file.path(dir_datos, "datos.csv"))
+
+# Cargar funciones personalizadas
+source(file.path("Funciones", "mis_funciones.R"))
+```
+## 5. Preparar los Datos
+Prepara los datos para el análisis, por ejemplo:
+
+- Proyecciones comunes
+- Definir áreas de estudio
+- Limpiar los datos de errores o depurarlos para tener sólo la información necesaria.
+
+```r
+# Limpiar datos
+datos_limpios <- datos %>%
+  filter(!is.na(variable_de_interes)) %>%
+  mutate(nueva_variable = otra_variable * 100)
+```
+
+## 6. Análisis y Resultados
+En esta sección intenta no repetir códigos. Si hay tareas repetidas, crea funciones. Guarda estas funciones en un código aparte y luego cárgalas al código principal con la función source(), o ubícalas al inicio del código donde se usen, por ejemplo, en la sección 4.
+
+Es importante identificar las diferentes partes del análisis, siguiendo una secuencia lógica y modular. Dichos módulos pueden ser diferenciados en secciones dentro del documento o escribiendo funciones con un cometido específico e independientes del código principal del análisis.
+
+```r
+# Funciones ####
+# Función para calcular la media y desviación estándar
+calcula_estadisticas <- function(df, columna) {
+  resultado <- df %>%
+    summarize(
+      media = mean(!!sym(columna), na.rm = TRUE),
+      desviacion = sd(!!sym(columna), na.rm = TRUE)
+    )
+  return(resultado)
+}
+
+# Cargar datos ####
+datos <- read.csv("Datos/datos.csv")
+
+# Análisis ####
+
+# Aplicar la función para calcular estadísticas en diferentes columnas
+estadisticas_altura <- calcula_estadisticas(datos, "altura")
+estadisticas_peso <- calcula_estadisticas(datos, "peso")
+
+```
+
+# Utiliza un Sistema de Control de Versiones
+En lugar de guardar diferentes versiones de tu código como analisis_v1, analisis_v2, etc., es altamente recomendable emplear herramientas como Git. Estas herramientas te permiten:
+
+Mantener un historial organizado y detallado de todos los cambios realizados en tu código y datos.
+Registrar quién hizo cada cambio, cuándo y por qué.
+Facilitar la comparación y restauración de versiones anteriores.
+Cuando se combina con plataformas como GitHub, GitLab o Bitbucket, se simplifica enormemente el desarrollo colaborativo de proyectos.
+
+Descarga de Modelos
+Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código con la estructura descrita aquí.
+
+Bibliografía y Enlaces de Soporte
+Buenas prácticas en R - Yizinet
+Quince consejos para mejorar nuestro código y flujo de trabajo con R
+Mejores Prácticas de Programación en R para Estudiantes y Profesionales
+Trabajar con proyectos en RStudio
+Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR
+
 
