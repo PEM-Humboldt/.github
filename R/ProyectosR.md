@@ -47,7 +47,7 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
             └── Figuras
 
    
-Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código [aquí](#).
+Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código [aquí](./Estilo).
 
 ## Bibliografía y enlaces de soporte
 
