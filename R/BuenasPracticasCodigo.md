@@ -155,23 +155,28 @@ b <- cbind(a, z)
 ```
 ## 6. Haga pilotos de su proceso antes de usar los datos completos.
 ## 7. Busque la simplicidad y efectividad:
-Cuanto más sencillo sea el código, menores serán las probabilidades de cometer errores.
+Cuanto más sencillo sea el código, menores serán las probabilidades de cometer errores , y estos serán más fáciles de rastrear. 
 
-Optimice luego:
-Primero enfócate en encontrar la solución y luego en optimizarla. Usa herramientas como Rprof(), system.time(), y gc() para medir y optimizar el rendimiento del código.
+Sin embargo, en algunas ocasiones, un poco más de código puede ser más eficiente debido a la forma en que operan las funciones. Por eso, es fundamental estar bien informado sobre las funciones que utiliza y leer detenidamente la documentación básica. Esto es indispensable para ser más creativo y tener mayor libertad a la hora de programar. 
 
-Errores comunes:
-Olvidar cerrar un paréntesis o una llave.
-Usar una variable antes de que haya sido definida.
-Confundir mayúsculas y minúsculas.
-Evita usar los mismos nombres para variables y funciones.
-Tips para ser felices:
-Alt + - para la asignación <-.
-Ctrl + Shift + M para %>%.
-Usa TRUE y FALSE, no T y F.
-Evita guardar espacios de trabajo completos, mejor guarda objetos con save() o saveRDS().
-Bibliografía y enlaces de soporte:
-Buenas prácticas en R - Yizinet
+## 8. Optimice luego:
+Primero enfóquese en encontrar la solución y luego en optimizarla. Invertir tiempo en la optimización antes de resolver el problema es inútil, ya que el código puede cambiar drásticamente durante la búsqueda de soluciones.
+La optimización se centra en mejorar la velocidad y reducir el consumo de memoria. Para ello, herramientas como `Rprof()`, `system.time()`, y `gc()` son muy útiles. También puede considerar paquetes como `rbenchmark`, `microbenchmark`, y `pbdPROF` para realizar mediciones y optimizaciones más detalladas.
+
+# Errores comunes
+- Olvidar cerrar un paréntesis o una llave.
+- Usar una variable antes de que haya sido definida.
+- Confundir mayúsculas y minúsculas.
+- Evita usar los mismos nombres para variables y funciones.
+
+# Tips para ser felices:
+- `Alt + -` para la asignación `<-`.
+- `Ctrl + Shift + M` para `%>%`.
+- Usa `TRUE` y `FALSE`, no `T` y `F`.
+- Evita guardar espacios de trabajo completos, mejor guarda objetos con `save()` o `saveRDS()`.
+
+ # Bibliografía y enlaces de soporte:
+- Buenas prácticas en R - Yizinet
 Quince consejos para mejorar nuestro código y flujo de trabajo con R
 Mejores Prácticas de Programación en R para Estudiantes y Profesionales
 Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR
