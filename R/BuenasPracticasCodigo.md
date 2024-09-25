@@ -44,9 +44,16 @@ En RStudio puedes crear una sección con `Ctrl + Shift + R`, o agregar 4 guiones
 ```r
 # algún comentario ----
 # algún comentario ####
+```
+También puede crear subsecciones en R añadiendo `#` delante de una sección.
+```r
 ## algún comentario ----
 ### algún comentario ----
 ```
+
+En Rstudio esto permite la creación de un índice de secciones, facilitando la navegación dentro del código. 
+En la gráfica inferior vea como las secciones definidas con numerales se traducen en un índice. El índice se puede abrir pulsando `Ctrl + Shift + O`.
+
 
 ## 3. Uso de funciones:
 Es fundamental comprender la importancia de crear y utilizar funciones correctamente en el código. Repetir código copiando y pegando es una mala práctica. En lugar de escribir código repetitivo, crea funciones.
