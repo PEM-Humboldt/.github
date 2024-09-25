@@ -28,7 +28,8 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
 
 ### Esquema para la organización de las carpetas del proyecto:
 
-README LICENSE 
+README 
+LICENSE 
 │ 
 ├── Códigos 
 │     ├── Funciones 
