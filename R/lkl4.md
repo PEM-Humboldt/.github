@@ -28,5 +28,29 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
 
 ### Esquema para la organización de las carpetas del proyecto:
 
-README LICENSE │ ├── Códigos │ ├── Funciones │ ├── Análisis y resultados │ ├── Preprocesamiento │ └── Código maestro │ ├── Datos │ ├── Tema o Tipo 1 │ └── Tema o Tipo 2 │ └── Resultados ├── Capas ├── Tablas └── Figuras
+README LICENSE 
+│ 
+├── Códigos 
+│     ├── Funciones 
+│     ├── Análisis y resultados 
+│     ├── Preprocesamiento 
+│     └── Código maestro 
+│ 
+├── Datos 
+│     ├── Tema o Tipo 1 
+│     └── Tema o Tipo 2 
+│
+└── Resultados 
+      ├── Capas 
+      ├── Tablas 
+      └── Figuras
+
+      
+Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código [aquí](#).
+
+## Bibliografía y enlaces de soporte
+
+- [Trabajar con proyectos en RStudio](https://eliocamp.github.io)
+- [Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR](https://limno-con-r.github.io)
+
 
