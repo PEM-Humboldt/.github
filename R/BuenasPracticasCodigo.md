@@ -1,7 +1,7 @@
 ## Buenas prácticas de código
 Los códigos no deben ser sólo funcionales, sino limpios, eficientes y fáciles de entender. Para esto aquí una lista de las mejores prácticas: 
 
-- Estilo de codificación consistente
+-1 Estilo de codificación consistente
 - Uso de comentarios
 - Uso de funciones
 - Uso de Bucles
