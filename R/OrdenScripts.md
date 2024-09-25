@@ -98,7 +98,7 @@ En lugar de guardar diferentes versiones de código como analisis_v1, analisis_v
 
 Cuando se combina con plataformas como GitHub, GitLab o Bitbucket, se simplifica enormemente el desarrollo colaborativo de proyectos.
 
-Puede descargar el modelo de organización de carpetas, junto con una plantilla de código con la estructura descrita [aquí] ()
+Puede descargar el modelo de organización de carpetas, junto con una plantilla de código con la estructura descrita [aquí](./Estilo).
 
 # Bibliografía y Enlaces de Soporte
 - [Buenas prácticas en R - Yizinet](https://www.yizinet.com)
