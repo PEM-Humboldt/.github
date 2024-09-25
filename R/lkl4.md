@@ -28,23 +28,23 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
 
 ### Esquema para la organización de las carpetas del proyecto:
 
-README 
-LICENSE 
-│ 
-├── Códigos 
-│     ├── Funciones 
-│     ├── Análisis y resultados 
-│     ├── Preprocesamiento 
-│     └── Código maestro 
-│ 
-├── Datos 
-│     ├── Tema o Tipo 1 
-│     └── Tema o Tipo 2 
-│
-└── Resultados 
-      ├── Capas 
-      ├── Tablas 
-      └── Figuras
+      README 
+      LICENSE 
+      │ 
+      ├── Códigos 
+      │     ├── Funciones 
+      │     ├── Análisis y resultados 
+      │     ├── Preprocesamiento 
+      │     └── Código maestro 
+      │ 
+      ├── Datos 
+      │     ├── Tema o Tipo 1 
+      │     └── Tema o Tipo 2 
+      │
+      └── Resultados 
+            ├── Capas 
+            ├── Tablas 
+            └── Figuras
 
 
     script
