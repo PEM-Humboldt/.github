@@ -16,3 +16,11 @@ library(ggplot2)
 # Librerías para manejo de datos espaciales
 library(sf)
 library(terra)
+
+3. Definir Directorio de Trabajo y Rutas a Directorios Importantes
+Configura el directorio de trabajo y las rutas a las carpetas relevantes. Puedes usar la función setwd() o la función here() del paquete here para manejar rutas relativas.
+
+Opciones:
+setwd(): Define el directorio de trabajo de forma absoluta.
+here(): Define rutas relativas basadas en el proyecto.
+Ejemplos de rutas a directorios importantes:
