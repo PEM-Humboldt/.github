@@ -176,16 +176,9 @@ La optimización se centra en mejorar la velocidad y reducir el consumo de memor
 - Evita guardar espacios de trabajo completos, mejor guarda objetos con `save()` o `saveRDS()`.
 
  # Bibliografía y enlaces de soporte:
-- Buenas prácticas en R - Yizinet
-Quince consejos para mejorar nuestro código y flujo de trabajo con R
-Mejores Prácticas de Programación en R para Estudiantes y Profesionales
-Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR
-r
-Copiar código
 
-Este formato mantiene todo en estilo Markdown mientras conserva el código y los ejemplos.
-
-
-
-
+(Buenas prácticas en R -Yizinet)[https://www.yizinet.com/buenas-practicas-en-r/]
+(Quince consejos para mejorar nuestro código y flujo de trabajo con R) [frodriguezsanchez.net]
+(Mejores Prácticas de Programación en R para Estudiantes y Profesionales) [gyata.ai]
+(Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR) [limno-con-r.github.io]
 
