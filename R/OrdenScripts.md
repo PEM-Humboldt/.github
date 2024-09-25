@@ -22,7 +22,8 @@ Configura el directorio de trabajo y las rutas a las carpetas relevantes. Puedes
 
 #### Opciones:
 - setwd(): Define el directorio de trabajo de forma absoluta.
-- here(): Define rutas relativas basadas en el proyecto.
+- here(): Define rutas relativas basadas en el proyecto.[here function - RDocumentation](https://www.rdocumentation.org/packages/here/versions/1.0.1/topics/here)
+
   
 #### Ejemplos de rutas a directorios importantes:
 ```r
@@ -35,3 +36,5 @@ setwd("Ruta/Al/Proyecto")
 dir_datos <- "Ruta/Al/Proyecto/Datos"
 dir_resultados <- "Ruta/Al/Proyecto/Resultados"
 ```
+
+
