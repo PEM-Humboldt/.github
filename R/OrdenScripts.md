@@ -90,21 +90,26 @@ estadisticas_peso <- calcula_estadisticas(datos, "peso")
 ```
 
 # Utiliza un Sistema de Control de Versiones
-En lugar de guardar diferentes versiones de tu código como analisis_v1, analisis_v2, etc., es altamente recomendable emplear herramientas como Git. Estas herramientas te permiten:
+En lugar de guardar diferentes versiones de código como analisis_v1, analisis_v2, etc., es altamente recomendable emplear herramientas como Git. Estas herramientas permiten:
 
-Mantener un historial organizado y detallado de todos los cambios realizados en tu código y datos.
-Registrar quién hizo cada cambio, cuándo y por qué.
-Facilitar la comparación y restauración de versiones anteriores.
+- Mantener un historial organizado y detallado de todos los cambios realizados en tu código y datos.
+- Registrar quién hizo cada cambio, cuándo y por qué.
+- Facilitar la comparación y restauración de versiones anteriores.
+
 Cuando se combina con plataformas como GitHub, GitLab o Bitbucket, se simplifica enormemente el desarrollo colaborativo de proyectos.
 
-Descarga de Modelos
-Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código con la estructura descrita aquí.
+Puede descargar el modelo de organización de carpetas, junto con una plantilla de código con la estructura descrita [aquí] ()
 
-Bibliografía y Enlaces de Soporte
-Buenas prácticas en R - Yizinet
-Quince consejos para mejorar nuestro código y flujo de trabajo con R
-Mejores Prácticas de Programación en R para Estudiantes y Profesionales
-Trabajar con proyectos en RStudio
-Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR
+# Bibliografía y Enlaces de Soporte
+- [Buenas prácticas en R - Yizinet](https://www.yizinet.com)
+
+- [Quince consejos para mejorar nuestro código y flujo de trabajo con R](https://frodriguezsanchez.net)
+
+- [Mejores Prácticas de Programación en R para Estudiantes y Profesionales](https://gyata.ai)
+
+- [Trabajar con proyectos en RStudio](https://eliocamp.github.io)
+
+- [Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR](https://limno-con-r.github.io)
+
 
 
