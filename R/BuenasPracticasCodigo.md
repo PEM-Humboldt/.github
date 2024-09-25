@@ -40,3 +40,93 @@ funcionexponencial_base2 <- function (exponent) {
 Utiliza los comentarios para guiar al lector, distinguir subsecciones o explicar por qué se hacen las cosas de una determinada manera.
 
 En RStudio puedes crear una sección con `Ctrl + Shift + R`, o agregar 4 guiones (`-` o `#`) después de un comentario.
+
+```r
+# algún comentario ----
+# algún comentario ####
+## algún comentario ----
+### algún comentario ----
+```
+
+## 3. Uso de funciones:
+Es fundamental comprender la importancia de crear y utilizar funciones correctamente en el código. Repetir código copiando y pegando es una mala práctica. En lugar de escribir código repetitivo, crea funciones.
+
+Las funciones vectorizadas (como `apply`, `lapply`, `sapply`, etc.) son más eficientes que los bucles convencionales.
+***NOTA:*** *Al definir las funciones no permitir el uso de parametros globales. Defina todos los parameros que va a necesitar la función, para hacer la función más flexible y menos compleja para los usuarios.*
+
+**Ejemplos:**
+```r
+# Buena práctica
+datatable(data = Col_resumen1,
+  options = list(
+    pageLength = 33,
+    paging = F,
+    language = list(search = "Buscar:")
+  )
+)
+
+# Mala práctica
+datatable(Col_resumen1,
+  options = list(33, F,  language = list(search = "Buscar:"))
+)
+
+```
+
+Uso de Bucles:
+Cuando uses bucles, evita variables incrementales y preasigna vectores, listas y objetos de datos.
+
+Ejemplos:
+r
+Copiar código
+# Buena práctica
+x <- integer(n)
+for (i in 1:n) {
+    x[i] <- i^2
+}
+
+# Mala Práctica
+x <- c() 
+for (i in 1:n) {
+    x <- c(x, i^2)
+}
+Evitar objetos innecesarios:
+Evita crear objetos innecesarios y previene el uso de objetos redundantes.
+
+r
+Copiar código
+z <- 5:9
+
+a <- data.frame(x = 4, y = 1:5)
+
+b <- cbind(a, z)
+Haga pilotos de su proceso antes de usar los datos completos.
+Busque la simplicidad y efectividad:
+Cuanto más sencillo sea el código, menores serán las probabilidades de cometer errores.
+
+Optimice luego:
+Primero enfócate en encontrar la solución y luego en optimizarla. Usa herramientas como Rprof(), system.time(), y gc() para medir y optimizar el rendimiento del código.
+
+Errores comunes:
+Olvidar cerrar un paréntesis o una llave.
+Usar una variable antes de que haya sido definida.
+Confundir mayúsculas y minúsculas.
+Evita usar los mismos nombres para variables y funciones.
+Tips para ser felices:
+Alt + - para la asignación <-.
+Ctrl + Shift + M para %>%.
+Usa TRUE y FALSE, no T y F.
+Evita guardar espacios de trabajo completos, mejor guarda objetos con save() o saveRDS().
+Bibliografía y enlaces de soporte:
+Buenas prácticas en R - Yizinet
+Quince consejos para mejorar nuestro código y flujo de trabajo con R
+Mejores Prácticas de Programación en R para Estudiantes y Profesionales
+Unidad 8 Buenas prácticas en R y Rstudio | bookdown-LimnoR
+r
+Copiar código
+
+Este formato mantiene todo en estilo Markdown mientras conserva el código y los ejemplos.
+
+
+
+
+
