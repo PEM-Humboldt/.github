@@ -46,24 +46,7 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
             ├── Tablas 
             └── Figuras
 
-
-    script
-    │- Script_VariationNaturalEcosystemsArea
-    │    
-    └-input
-    │ │
-    │ └- studyArea
-    │ │   │
-    │ │   │- studyArea.shp
-    │ │ 
-    │ └- covs
-    │     │
-    │     │- NatCovs_tiempo_1.shp
-    │     │- ...
-    │     │- NatCovs_tiempo_n.shp
-    │     
-    └-output
-      
+   
 Puedes descargar el modelo de organización de carpetas, junto con una plantilla de código [aquí](#).
 
 ## Bibliografía y enlaces de soporte
