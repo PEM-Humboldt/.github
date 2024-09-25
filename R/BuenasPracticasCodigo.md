@@ -1,6 +1,40 @@
-# Orden del Código
+## Buenas prácticas de código
+Los códigos no deben ser sólo funcionales, sino limpios, eficientes y fáciles de entender. Para esto aquí una lista de las mejores prácticas: 
 
-Para organizar las secciones en tu código se sugiere seguir la siguiente estructura:
+- Estilo de codificación consistente
+- Uso de comentarios
+- Uso de funciones
+- Uso de Bucles
+- Evitar objetos innecesarios
+- Haga pilotos
+- Busque la simplicidad y efectividad
+- Optimice luego
+
+### Estilo de Codificación Consistente:
+
+- **Indentación**: La correcta indentación es fundamental para mejorar la legibilidad y organización del código. Permite mostrar claramente la estructura y jerarquía de las distintas partes, como bucles, condicionales y funciones.
+- **Manejo de Espacios**: Es importante utilizar los espacios adecuadamente, como entre signos y números, y entre comas y números. Esto facilita la legibilidad y ayuda a evitar errores.
+
+En RStudio puedes pulsar `Ctrl + Shift + A` para auto formatear el código y agregar espacios donde sea necesario. Paquetes como `styler` también tienen funciones para dar formato directamente a un archivo o incluso a directorios completos. Además, el paquete `lindr` y su función `lint()` proporcionan una lista de desviaciones de la guía de estilo.
+
+- **Nomenclatura**: Adopta una convención de nomenclatura común para todo el código. Por ejemplo, usa prefijos para identificar tipos de objetos: rasters (`r_`), tablas (`t_`), capas vectoriales (`v_`). Aplica nombres cortos pero descriptivos con estilo "snake_case" para objetos y "camelCase" para funciones.
+
+#### Ejemplos:
+
+```r
+# Buena práctica
+vector_123 <- c(1,2,3)
+
+funcionExponencial <- function (exponent) {
+  return (2 ** exponent)
+}
+
+# Mala Práctica
+myvector <- c(1,2,3)
+
+funcionexponencial_base2 <- function (exponent) {
+  return (2 ** exponent)
+}
 
 ## 1. Descripción
 Incluye una breve descripción del código, créditos, fuentes y anotaciones importantes.
