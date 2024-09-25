@@ -35,8 +35,8 @@ myvector <- c(1,2,3)
 funcionexponencial_base2 <- function (exponent) {
   return (2 ** exponent)
 }
-
+```
 ## 2. Uso de comentarios:
 Utiliza los comentarios para guiar al lector, distinguir subsecciones o explicar por qué se hacen las cosas de una determinada manera.
 
-En RStudio puedes crear una sección con Ctrl + Shift + R, o agregar 4 guiones (- o #) después de un comentario.
+En RStudio puedes crear una sección con `Ctrl + Shift + R`, o agregar 4 guiones (`-` o `#`) después de un comentario.
