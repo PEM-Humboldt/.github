@@ -14,7 +14,6 @@ Los códigos no deben ser sólo funcionales, sino limpios, eficientes y fáciles
 
 - **Indentación**: La correcta indentación es fundamental para mejorar la legibilidad y organización del código. Permite mostrar claramente la estructura y jerarquía de las distintas partes, como bucles, condicionales y funciones.
 - **Manejo de Espacios**: Es importante utilizar los espacios adecuadamente, como entre signos y números, y entre comas y números. Esto facilita la legibilidad y ayuda a evitar errores.
-
 En RStudio puedes pulsar `Ctrl + Shift + A` para auto formatear el código y agregar espacios donde sea necesario. Paquetes como `styler` también tienen funciones para dar formato directamente a un archivo o incluso a directorios completos ((styler - A non-invasive source code formatter for R)[lorenzwalthert.github.io], (Non-Invasive Pretty Printing of R Code • styler)[r-lib.org]). Además, el paquete `lindr` y su función `lint()` proporcionan una lista de desviaciones de la guía de estilo,e incluye términos de lógica, como por ejemplo, variables no utilizadas.
 
 - **Nomenclatura**: Adopte una convención de nomenclatura común para todo el código. Por ejemplo, usa prefijos para identificar tipos de objetos: rasters (`r_`), tablas (`t_`), capas vectoriales (`v_`). Piense en los objetos que estén relacionados y use prefijos consistentemente.
@@ -134,13 +133,28 @@ Evite la creación de objetos innecesarios y prevenga el uso de objetos redundan
 ```r
 z <- 5:9
 a <- data.frame(x = 4, y = 1:5)
-a
-b <- cbind(a, z)
-b
-```
+### Resultado de `a`
+| x | y |
+|---|---|
+| 4 | 1 |
+| 4 | 2 |
+| 4 | 3 |
+| 4 | 4 |
+| 4 | 5 |
 
-Haga pilotos de su proceso antes de usar los datos completos.
-Busque la simplicidad y efectividad:
+b <- cbind(a, z)
+### Resultado de `b`
+| x | y | z |
+|---|---|---|
+| 4 | 1 | 5 |
+| 4 | 2 | 6 |
+| 4 | 3 | 7 |
+| 4 | 4 | 8 |
+| 4 | 5 | 9 |
+
+```
+## 6. Haga pilotos de su proceso antes de usar los datos completos.
+## 7. Busque la simplicidad y efectividad:
 Cuanto más sencillo sea el código, menores serán las probabilidades de cometer errores.
 
 Optimice luego:
