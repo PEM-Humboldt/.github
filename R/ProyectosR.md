@@ -1,6 +1,6 @@
 # Proyectos con R
 
-Trabajar en proyectos es altamente recomendable para cada actividad que se realice. La estructura estándar de un proyecto debe alojar idealmente todos los archivos relacionados con un proyecto o informe técnico (datos, código, figuras, etc.) en la misma carpeta. Utiliza el paquete `here()` o `setwd()` para especificar las rutas a los diferentes archivos dentro del proyecto (Detalles en Orden de código).
+Trabajar en proyectos es altamente recomendable para cada actividad que se realice. La estructura estándar de un proyecto debe alojar idealmente todos los archivos relacionados con un proyecto o informe técnico (datos, código, figuras, etc.) en la misma carpeta. Utiliza el paquete `here()`, `this.path` o `setwd()` para especificar las rutas a los diferentes archivos dentro del proyecto (Detalles en [Orden de código](./OrdenScripts.md)).
 
 ### Esta estructura asegura:
 
