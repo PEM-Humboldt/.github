@@ -76,7 +76,7 @@ datos_limpios <- datos %>%
 ## 7. Análisis y Resultados
 En esta sección intente no repetir códigos. Si hay tareas repetidas, cree funciones. Guarde estas funciones en un código aparte y luego cárgalas al código principal con la función source(), o ubícalas al inicio del código donde se usen, por ejemplo, en la sección 4.
 
-Es importante identificar las diferentes partes del análisis, siguiendo una secuencia lógica y modular. Dichos módulos pueden ser diferenciados en secciones dentro del documento (Revise sección (Buenas prácticas de código) [./BuenasPracticasCodigo.md]) o escribiendo funciones con un cometido específico e independientes del código principal del análisis.
+Es importante identificar las diferentes partes del análisis, siguiendo una secuencia lógica y modular. Dichos módulos pueden ser diferenciados en secciones dentro del documento (Revise sección (Buenas prácticas de código)[./BuenasPracticasCodigo.md]) o escribiendo funciones con un cometido específico e independientes del código principal del análisis.
 
 ```r
 # Funciones ####
