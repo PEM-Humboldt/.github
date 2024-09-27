@@ -55,10 +55,9 @@ datos <- read.csv(file.path(dir_datos, "datos.csv"))
 # Cargar funciones personalizadas
 source(file.path("Funciones", "mis_funciones.R"))
 ```
-## 5. Definir parametros globales
+## 5. Definir parámetros globales
 Definir parámetros globales esenciales para configurar el proyecto, pero que puedan modificarse fácilmente para adaptarlos a otros proyectos. Esto facilita la reutilización del código sin necesidad de buscar y cambiar manualmente cada parámetro. 
 Ejemplos de estos parámetros incluyen: proyecciones, nombres de columnas, umbrales de análisis, y colores de visualización, entre otros.
-
 
 ## 5. Preparar los Datos
 Prepara los datos para el análisis, por ejemplo:
@@ -75,9 +74,9 @@ datos_limpios <- datos %>%
 ```
 
 ## 6. Análisis y Resultados
-En esta sección intenta no repetir códigos. Si hay tareas repetidas, crea funciones. Guarda estas funciones en un código aparte y luego cárgalas al código principal con la función source(), o ubícalas al inicio del código donde se usen, por ejemplo, en la sección 4.
+En esta sección intente no repetir códigos. Si hay tareas repetidas, cree funciones. Guarde estas funciones en un código aparte y luego cárgalas al código principal con la función source(), o ubícalas al inicio del código donde se usen, por ejemplo, en la sección 4.
 
-Es importante identificar las diferentes partes del análisis, siguiendo una secuencia lógica y modular. Dichos módulos pueden ser diferenciados en secciones dentro del documento o escribiendo funciones con un cometido específico e independientes del código principal del análisis.
+Es importante identificar las diferentes partes del análisis, siguiendo una secuencia lógica y modular. Dichos módulos pueden ser diferenciados en secciones dentro del documento (Revise sección (Buenas prácticas de código) []) o escribiendo funciones con un cometido específico e independientes del código principal del análisis.
 
 ```r
 # Funciones ####
