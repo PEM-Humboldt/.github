@@ -35,6 +35,14 @@ dir_resultados <- here::here("Resultados")
 setwd("Ruta/Al/Proyecto")
 dir_datos <- "Ruta/Al/Proyecto/Datos"
 dir_resultados <- "Ruta/Al/Proyecto/Resultados"
+
+# Dentro de la definición de la plantilla propuesta puede usar
+
+setwd(file.path(this.path::this.path(),"..",".."))
+
+dir_Datos_Or<- file.path("Datos", "Originales")
+dir_Resultados<- file.path ("Resultados")
+
 ```
 
 ## 4. Cargar Archivos de Datos y Funciones Necesarias
@@ -47,6 +55,11 @@ datos <- read.csv(file.path(dir_datos, "datos.csv"))
 # Cargar funciones personalizadas
 source(file.path("Funciones", "mis_funciones.R"))
 ```
+## 5. Definir parametros globales
+Definir parámetros globales esenciales para configurar el proyecto, pero que puedan modificarse fácilmente para adaptarlos a otros proyectos. Esto facilita la reutilización del código sin necesidad de buscar y cambiar manualmente cada parámetro. 
+Ejemplos de estos parámetros incluyen: proyecciones, nombres de columnas, umbrales de análisis, y colores de visualización, entre otros.
+
+
 ## 5. Preparar los Datos
 Prepara los datos para el análisis, por ejemplo:
 
