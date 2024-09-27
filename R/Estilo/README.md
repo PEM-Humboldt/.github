@@ -1,5 +1,5 @@
 # Nombre del Proyecto: Plantilla de proyectos
-##Autor: Alejandra Narváez Vallejo
+## Autor: Alejandra Narváez Vallejo
 
 ## Proposito
 Este es un proyecto plantilla para la creacion de proyectos y la organización de los códigos.
