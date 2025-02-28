@@ -36,8 +36,8 @@ library(terra)
 
 # # Alternativa 1: Si se encuentra dentro de un projecto de RStudio
 # 
-# dir_vector<- here::here("Datos","Vector")
-# dir_raster<- here::here("Datos","Raster")
+# dir_vector<- here::here("Data","Raw","Vector")
+# dir_raster<- here::here("Data","Raw","Raster")
 # 
 # dir_ouput<-  here::here("Resultados")
 # 
@@ -46,16 +46,16 @@ library(terra)
 # 
 # setwd( "C:/Users/alejandra.narvaez/Documents/3_CódgosR/Estilo" ) # "ruta a la carpeta del proyecto"
 # 
-# dir_vector<- paste0("Datos/Vector")
-# dir_raster<- paste0("Datos/Raster")
+# dir_vector<- file.path("Data","Raw", "vector")
+# dir_raster<- file.path("Data", "Raw", "raster")
 
 # Alternativa 3: Dentro de la definición de la plantilla propuesta puede usar
 
 setwd(file.path(this.path::this.path(),"..",".."))
 
-dir_vector<- file.path("Datos", "vector")
-dir_raster<- file.path("Datos", "raster")
-dir_Resultados<- file.path ("Resultados")
+dir_vector<- file.path("Data","Raw", "vector")
+dir_raster<- file.path("Data", "Raw", "raster")
+dir_Resultados<- file.path ("Results")
 
 
 #**********************************************************
@@ -114,6 +114,6 @@ plot(r_pop_cond)
 
 # escribir resultados
 
-writeRaster(r_pop_cond, file.path(dir_Resultados, "Mascara_Póblación.tif"))
+writeRaster(r_pop_cond, file.path(dir_Resultados,"GIS_Layers", "Mascara_Póblación.tif"))
 
 
