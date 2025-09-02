@@ -31,17 +31,17 @@ Se sugiere una estructura sencilla para la organización de las carpetas en los 
       README 
       LICENSE 
       │ 
-      ├── Códigos 
+      ├── Codes 
       │     ├── Funciones 
       │     ├── Análisis y resultados 
       │     ├── Preprocesamiento 
       │     └── Código maestro 
       │ 
-      ├── Datos 
+      ├── Data 
       │     ├── Tema o Tipo 1 
       │     └── Tema o Tipo 2 
       │
-      └── Resultados 
+      └── Results 
             ├── Capas 
             ├── Tablas 
             └── Figuras
