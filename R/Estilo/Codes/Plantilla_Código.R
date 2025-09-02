@@ -34,23 +34,6 @@ library(terra)
 # Definir directorio(s) de trabajo -----------------------
 #**********************************************************
 
-# # Alternativa 1: Si se encuentra dentro de un projecto de RStudio
-# 
-# dir_vector<- here::here("Data","Raw","Vector")
-# dir_raster<- here::here("Data","Raw","Raster")
-# 
-# dir_ouput<-  here::here("Resultados")
-# 
-# 
-# # Alternativa 2: Si no tiene projecto de RStudio defina
-# 
-# setwd( "C:/Users/alejandra.narvaez/Documents/3_CódgosR/Estilo" ) # "ruta a la carpeta del proyecto"
-# 
-# dir_vector<- file.path("Data","Raw", "vector")
-# dir_raster<- file.path("Data", "Raw", "raster")
-
-# Alternativa 3: Dentro de la definición de la plantilla propuesta puede usar
-
 setwd(file.path(this.path::this.path(),"..",".."))
 
 dir_vector<- file.path("Data","Raw", "vector")
