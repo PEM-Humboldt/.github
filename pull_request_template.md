@@ -9,3 +9,6 @@
 
 ## 🤔 Considerations
 > Write if it's necessary to make data modifications or other special things to test these changes
+
+## ✅ Checks
+> List of additional checks for a development. For example, update the docs.
