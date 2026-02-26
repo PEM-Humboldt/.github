@@ -14,3 +14,9 @@ Progresivamente se irán introduciendo nuevos materiales. Mientras tanto, divié
 ![](https://imgs.xkcd.com/comics/git.png)
 
 <sub>https://imgs.xkcd.com/comics/git.png</sub>
+
+
+## Crear un nuevo repositorio institucional
+
+Si quieren crear un nuevo repositorio institucional (o transferir un repositorio existente a la organisación PEM-Humboldt), por favor llenar este [formulario](https://docs.google.com/forms/d/e/1FAIpQLSe0qxu4h1gjcsnwOFC1t3dnQ6FHnORSSkqVKxXeS4RJ-w_vXw/viewform?usp=dialog).
+El equipo responsable de los repositorios institucionales les contactará.
