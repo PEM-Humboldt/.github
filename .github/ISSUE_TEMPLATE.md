@@ -6,7 +6,7 @@ labels: 'bug'
 assignees: ''
 ---
 
-> Elimine todas las líneas que comiencen con > antes de crear el issue
+> Elimine todas las líneas que comiencen con > antes de crear el issue.
 
 ### ¿Qué está fallando?
 
