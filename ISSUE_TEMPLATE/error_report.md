@@ -6,28 +6,42 @@ labels: 'bug'
 assignees: ''
 ---
 
+> Elimine todas las líneas que comiencen con > antes de crear el issue
+
 ### ¿Qué está fallando?
-<!-- Explica en 1 o 2 frases sencillas cuál es el problema y lo que deberíá suceder  en su lugar (ej: la pantalla se queda en blanco y debería salir X o Y... me sale un mensaje de error que dice incluso cuando puse la información correcta y deberíá salir esto... no me guarda los archivos de audio..., etc.) -->
+
+> Explica en 1 o 2 frases cuál es el problema y lo que debería suceder en su lugar (ej: la pantalla se queda en blanco y debería salir X o Y... me sale un mensaje de error incluso cuando puse la información correcta y debería salir esto... no me guarda los archivos de audio..., etc.)
 
 ### ¿Dónde ocurrió?
 
-- **Url en el navegador:** <!-- La url donde ocurrió el error, ej: https://biotablerobeta.humbolt.org.co/Monitoreo/Iniciativas/ -->
+- **Url en el navegador:**
 
-- **Navegador o Dispositivo:** <!-- Ej: Chrome en PC, Safari en ipad, etc. -->
+> La url donde ocurrió el error, ej: <https://biotablerobeta.humboldt.org.co/Monitoreo/Iniciativas/>
 
-- **Usuario o Rol usado:** <!-- Ej: Administrador, Anónimo, Lider, Colaborador, Lector. -->
+- **Navegador o Dispositivo:**
 
-- **Sistema operativo**: <!-- Windows 7, Win 11, MacOs High sierra, etc. -->
+> Ej: Chrome en PC, Safari en iPad, etc. si tienes la versión del navegador mejor.
+
+- **Usuario o Rol usado:**
+
+> Ej: Administrador, Anónimo, Líder, Colaborador, Lector.
+
+- **Sistema operativo:**
+
+> Windows 7, Win 11, macOS High Sierra, etc.
 
 ### Pasos para ver el error
-<!-- Indica el paso a paso detallado para replicar el error -->
+
+> Indica el paso a paso detallado para replicar el error
+
 1. Ingresé a la sección de...
 2. Hice clic en el botón...
 3. Escribí los datos...
 4. Apareció el error.
 
 ### Capturas de pantalla o Gifs o video
-<!-- Arrastra y suelta aquí las imágenes o grabaciones donde se vea el error -->
+
+> Arrastra y suelta aquí las imágenes o grabaciones donde se vea el error
 
 ### ¿Para usted qué tan grave es?
 
